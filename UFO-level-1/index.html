@@ -37,7 +37,7 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2010">
                       </li>
                     </ul>
                   </div>
@@ -52,13 +52,15 @@
             <table id="ufo-table" class="table table-striped">
               <thead>
                 <tr>
-                  <th class="table-head">Date</th>
-                  <th class="table-head">City</th>
-                  <th class="table-head">State</th>
-                  <th class="table-head">Country</th>
-                  <th class="table-head">Shape</th>
-                  <th class="table-head">Duration</th>
-                  <th class="table-head">Comments</th>
+                  <th class="table-head" id="date">Date</th>
+                  <th class="table-head" id="city">City</th>
+                  <th class="table-head" id="state">State</th>
+                  <th class="table-head" id="country">Country</th>
+                  <th class="table-head" id="shape">Shape</th>
+                  <th class="table-head" id="duration">Duration</th>
+                  <th class="table-head" id="comments">Comments</th>
+                </tr>
+                <tr id="ufo-data">
                 </tr>
               </thead>
               <tbody></tbody>
